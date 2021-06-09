@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: asset-management-pv
+spec:
+  storageClassName: asset-management-pv
+  accessModes:
+    - ReadWriteMany
+  capacity:
+    storage: 
+  persistentVolumeReclaimPolicy: Delete
+  nfs:
+path: /nfs/static_pv/cap46/asset-management/asset-management-pv
+    server: nfs.icc
