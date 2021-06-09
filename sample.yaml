@@ -7,8 +7,8 @@ spec:
   accessModes:
     - ReadWriteMany
   capacity:
-    storage: 
+    storage: 2Gi
   persistentVolumeReclaimPolicy: Delete
   nfs:
-path: /nfs/static_pv/cap46/asset-management/asset-management-pv
+    path: /nfs/static_pv/cap46/asset-management/asset-management-pv
     server: nfs.icc
