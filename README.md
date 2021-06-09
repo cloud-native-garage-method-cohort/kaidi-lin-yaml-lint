@@ -1,0 +1,1 @@
+# kaidi-lin-yaml-lint
